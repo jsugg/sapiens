@@ -120,3 +120,7 @@ certificates
 
 # Public static content
 public/carrousel
+public/describe_images
+
+# OS X
+.DS_Store
