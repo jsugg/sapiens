@@ -1,0 +1,30 @@
+{
+  "name": "sapiens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sapiens": "echo \"Initializing SAPIENS\" && npm run server",
+    "server": "node ./server/index.js | pino-pretty -i streams,options"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "app-root-path": "^3.1.0",
+    "axios": "^1.3.4",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "dockerode": "^3.3.4",
+    "express": "^4.18.2",
+    "multistream": "^4.1.0",
+    "pino": "^8.11.0",
+    "pino-datadog": "^2.0.2",
+    "pino-datadog-transport": "^1.3.0",
+    "pino-http": "^8.3.3"
+  },
+  "devDependencies": {
+    "pino-pretty": "^9.4.0"
+  }
+}

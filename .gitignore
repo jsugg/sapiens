@@ -102,3 +102,21 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Dotenvs
+.ENV.dev
+.ENV.preprod
+.ENV.staging
+.ENV.prod
+
+# TLS development certificates
+certificates
+
+# IDE
+.vscode
+
+# NodeJS
+.package-lock.json
+
+# Public static content
+public/carrousel
