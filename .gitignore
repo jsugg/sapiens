@@ -110,7 +110,8 @@ dist
 .ENV.prod
 
 # TLS development certificates
-certificates
+certs
+*.pem
 
 # IDE
 .vscode
